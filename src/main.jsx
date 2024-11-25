@@ -19,15 +19,11 @@ const InitializeAOS = () => {
   return <></>;  
 };
 
-const speedInsightsConfig = {
-  token: "YOUR_SPEED_INSIGHTS_TOKEN",
-  enabled: import.meta.env.MODE === "production",
-};
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <InitializeAOS />
-    <SpeedInsights token="YOUR_SPEED_INSIGHTS_TOKEN" enabled={import.meta.env.MODE === "production"} />
+    <SpeedInsights  enabled={import.meta.env.MODE === "production"} />
     <App />
   </React.StrictMode>
 );
