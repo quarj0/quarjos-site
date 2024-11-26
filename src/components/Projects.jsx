@@ -39,13 +39,11 @@ const Advantages = () => {
               alt="system-response-analyser"
             />
             <div className="card-body">
-              <h5 className="card-header text-center">
-                System Analyser
-              </h5>
+              <h5 className="card-header text-center">System Analyser</h5>
               <p className="card-subtitle mt-3 text-body-primary">
                 A script written in python to assess and evaluate the behavior
-                and performance of a computer system. Platforms: Linux OS, Windows, Rasberry Pi and
-                MacOS
+                and performance of a computer system. Platforms: Linux OS,
+                Windows, Rasberry Pi and MacOS
                 <p className="text-body-primary">Features</p>
                 <ul className="text-body-primary">
                   <li className="text-body-primary">
@@ -61,7 +59,8 @@ const Advantages = () => {
                     Checking disk, memory and CPU usage{" "}
                   </li>
                   <li className="text-body-primary">
-                    Network speed testing as an indicator of network performance.
+                    Network speed testing as an indicator of network
+                    performance.
                   </li>
                   <li className="text-body-primary">
                     System uptime and system information
@@ -90,12 +89,12 @@ const Advantages = () => {
               <h5 className="card-title">Hostel Management</h5>
               <small className="m-3 text-danger">APIs Only</small>{" "}
               <p className="card-text">
-                A mobile application APIs for a hostel management service. 
+                A mobile application APIs for a hostel management service.
                 <br />
                 <br />
-                The application
-                is built with Django and Django Rest Framework for the backend and 
-                it&apos;s only the backend part of the project consisting of fully functional RESTful APIs.
+                The application is built with Django and Django Rest Framework
+                for the backend and it&apos;s only the backend part of the
+                project consisting of fully functional RESTful APIs.
               </p>
               <p className="text-body-primary">Features</p>
               <ul className="text-body-primary">
@@ -112,7 +111,8 @@ const Advantages = () => {
                 <small>
                   <a
                     className="btn btn-success w-50"
-                    href="https://github.com/quarj0/hostel_management"                  target="_blank"
+                    href="https://github.com/quarj0/hostel_management"
+                    target="_blank"
                     rel="noreferrer"
                   >
                     Private Repo
@@ -123,59 +123,81 @@ const Advantages = () => {
           </div>
         </div>
         <div className="col" data-aos="fade-top">
-          <div className="card h-100">
-            <ImageCarousel images={AtmImages} />
-            <div className="card-body">
-              <h5 className="card-header text-center">
-                FingerPrint Based ATM Simulator{" "}
-              </h5>
-              <p className="card-text">
-                A simple ATM simulator built with Java programming language.
-                It&apos;s a full GUI application that allows users to perform
-                basic ATM operations such as fingerprint verification, deposit,
-                withdraw, check balance, etc. It uses the fingerprint sensor to
-                verify the user&apos;s identity. No database is used in this
-                project. All data is logically stored in the application itself
-                and can be accessed by the user. Framework used: JavaSwing
-              </p>
-              <p className="link-to-project text-sm-center">
-                <small>
-                  <a
-                    className="btn btn-success w-50"
-                    href="https://github.com/qquarjo/atm-simulator"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View Project
-                  </a>
-                </small>
-              </p>
-            </div>
+          <div className="card-body">
+            <h5 className="card-header text-center">Weloret Research Hub</h5>
+            <p className="card-text">
+              Weloret - A comprehensive research hub offering blogs, events, digitals skils and
+              resources to empower your knowledge.
+            </p>
+            <p className="link-to-project text-sm-center">
+              <small>
+                <a
+                  className="btn btn-success w-50"
+                  href="https://weloret.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check website here
+                </a>
+              </small>
+            </p>
           </div>
         </div>
-        <div className="col" data-aos="fade-down">
-          <div className="card h-100">
-            <div className="card-body">
-              <h5 className="card-title">Campus Glide</h5>
-              <small className="m-3 text-danger">APIs Only</small>{" "}
-              <p className="card-text">
-              A mobile application APIs for  E-Scooter rental service.
+      </div>
+      <div className="col" data-aos="fade-top">
+        <div className="card h-100">
+          <ImageCarousel images={AtmImages} />
+          <div className="card-body">
+            <h5 className="card-header text-center">
+              FingerPrint Based ATM Simulator{" "}
+            </h5>
+            <p className="card-text">
+              A simple ATM simulator built with Java programming language.
+              It&apos;s a full GUI application that allows users to perform
+              basic ATM operations such as fingerprint verification, deposit,
+              withdraw, check balance, etc. It uses the fingerprint sensor to
+              verify the user&apos;s identity. No database is used in this
+              project. All data is logically stored in the application itself
+              and can be accessed by the user. Framework used: JavaSwing
+            </p>
+            <p className="link-to-project text-sm-center">
+              <small>
+                <a
+                  className="btn btn-success w-50"
+                  href="https://github.com/qquarjo/atm-simulator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Project
+                </a>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col" data-aos="fade-down">
+        <div className="card h-100">
+          <div className="card-body">
+            <h5 className="card-title">Campus Glide</h5>
+            <small className="m-3 text-danger">APIs Only</small>{" "}
+            <p className="card-text">
+              A mobile application APIs for E-Scooter rental service.
               <br />
               <br />
-              The application is built with Django and Django Rest Framework for the backend 
-              and it&apos;s only the backend part of the project consisting of fully functional RESTful APIs.
-              </p>
-              <p className="link-to-project text-sm-center">
-                <small>
-                  <a
-                    className="btn btn-success w-50"
-                    href="https://github.com/quarj0/campusglidebackend" 
-                  >
-                    Private Repo
-                  </a>
-                </small>
-              </p>
-            </div>
+              The application is built with Django and Django Rest Framework for
+              the backend and it&apos;s only the backend part of the project
+              consisting of fully functional RESTful APIs.
+            </p>
+            <p className="link-to-project text-sm-center">
+              <small>
+                <a
+                  className="btn btn-success w-50"
+                  href="https://github.com/quarj0/campusglidebackend"
+                >
+                  Private Repo
+                </a>
+              </small>
+            </p>
           </div>
         </div>
       </div>

@@ -9,7 +9,6 @@ const Work = () => {
           data-aos="fade-right"
           className="fa fa-briefcase fa-1x fa-ico mb-3 text-uppercase"
         >
-          {" "}
           experience
         </i>
       </div>
@@ -21,27 +20,39 @@ const Work = () => {
       <div className="timeline">
         <div className="line"></div>
 
-        
-
+        <div className="section">
+          <div className="bead"></div>
+          <div className="content">
+            <h3>Software Developer</h3>
+            <span>Full Stack developer - Kumasi Hive</span>
+            <p>
+              I am served my national service at Kumasi Hive.
+              An innovative and research company, helping SMEs and startups.
+            </p>
+            <small className="education-date">2024 - present</small>
+          </div>
+        </div>
         <div className="section">
           <div className="bead"></div>
           <div className="content">
             <h3>IT Support</h3>
             <p>
-             Currently, I am working as an IT Support at the University of Cape Coast (Faculty of Law) .
-              My responsibilities include the following:
+              IT Support at the University of Cape Coast (Faculty of Law) . My
+              responsibilities include the following:
             </p>
             <ul>
               <li>Providing technical support to staff and students.</li>
               <li>
                 Assisting in the installation of new hardware and software.
               </li>
-              <li>Assisting in the management of the faculty&apos;s network.</li>
+              <li>
+                Assisting in the management of the faculty&apos;s network.
+              </li>
               <li>
                 Fixing and maintaining the faculty&apos;s computer systems.
               </li>
             </ul>
-            <small className="education-date">2023 - present</small>
+            <small className="education-date">2023 - 2024</small>
           </div>
         </div>
 
@@ -70,8 +81,8 @@ const Work = () => {
                 university.
               </li>
               <li>
-                Troubleshooted and resolved issues with the university&apos;s IT infrastructure
-                including systems, networks, and applications.
+                Troubleshooted and resolved issues with the university&apos;s IT
+                infrastructure including systems, networks, and applications.
               </li>
             </ul>
             <small className="education-date">September-November, 2023</small>
@@ -92,8 +103,8 @@ const Work = () => {
                 by 30%.
               </li>
               <li>
-                Managed a team other IT professionals to ensure the smooth running
-                of the company&apos;s IT infrastructure.
+                Managed a team other IT professionals to ensure the smooth
+                running of the company&apos;s IT infrastructure.
               </li>
               <li>
                 Managed the company&apos;s website and social media platforms.
