@@ -17,7 +17,7 @@
     "aos": "^2.3.4",
     "body-parser": "^1.20.3",
     "bootstrap": "^5.3.2",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "express-rate-limit": "^6.11.2",
     "lazyload": "^2.0.0-rc.2",
     "nodemailer": "^6.9.9",
