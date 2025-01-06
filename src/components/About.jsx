@@ -20,13 +20,21 @@ const About = () => {
               <span className="text-success">learn something new</span>.
             </h3>
             <p data-aos="fade-left" className="text-wrap text-body-primary">
-              I am a Cybersecurity Analyst and Programmer. I have been working
-              in the field of Cybersecurity for 5+ years. I have a passion for
-              learning and sharing my knowledge with others a public as
-              possible. I have a strong interest in cybersecurity and
-              programming . I am always excited to learn new things. I am a fast
-              learner and a team player. I am a self-motivated person and I
-              believe in hard work.
+              Hello, I am{" "}
+              <span className="text-success">Owusu Ansah Kwadwo</span>, a
+              software developer based in Kumasi, Ghana. I have a
+              Bachelor&apos;s degree in Information Technology from University
+              of Cape Coast. I have experience in building web applications
+              using modern technologies like React, Python, and Postgresql or
+              MySQL. I am always looking for new opportunities to learn and grow
+              as a developer.
+            </p>
+            <p data-aos="fade-left" className="text-wrap text-body-primary">
+              I am also an aspiring Cyber Security Analyst. I have a keen
+              interest in Cyber Security and I am currently studying for the
+              CompTIA Security+ certification. I am also looking forward to
+              learning more about Cyber Security and getting more certifications
+              in the future.
             </p>
           </div>
         </div>

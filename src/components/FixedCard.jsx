@@ -15,11 +15,11 @@ const FixedCard = () => {
       <div className="text-body-primary">
         <div className="text-body-primary text-end">
           <small className="text-sm-center text-break fs-6">
-            Cybersecurity Analyst
+            Aspiring Cybersecurity Analyst
           </small>
         </div>
         <div className="text-body-primary text-end">
-          <small className="text-sm-center text-break fs-6">& Backend Developer</small>
+          <small className="text-sm-center text-break fs-6">Software Developer</small>
         </div>
       </div>
       <img
@@ -29,7 +29,7 @@ const FixedCard = () => {
       />
 
       <p className="text-body-primary mt-4">
-        Based in Ejisu-Kumasi, Gh
+        Kumasi, Ghana
       </p>
       <div className="social-icons">
         <div className="icons-container icon-link">
@@ -58,7 +58,7 @@ const FixedCard = () => {
           <a
             color="#1DA1F2"
             className="icon-link-"
-            href="https://twitter.com/quarjowusu/"
+            href="https://x.com/quarjowusu/"
             target="_blank"
             rel="noopener noreferrer"
           >

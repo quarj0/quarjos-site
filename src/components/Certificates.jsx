@@ -28,14 +28,9 @@ const Certifications = () => {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Certified in Cybersecurity
+              Secuirty Operations
             </h3>
             <h4 className="vertical-timeline-element-subtitle ">(ISC)²</h4>
-            <p>
-              This certification demonstrates the ability to design, implement,
-              and manage a best-in-class cybersecurity program. It also shows
-              the ability to protect an organization from sophisticated attacks.
-            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -47,17 +42,8 @@ const Certifications = () => {
             <h3 className="vertical-timeline-element-title">
               IBM Cybersecurity Analyst Professional Certificate
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Cousera & IBM Security Learning Academy
-            </h4>
-            <p>
-              This certification demonstrates the ability to understand cyber
-              security concepts, identify different types of threats, and
-              implement security controls to protect an organization&apos;s
-              assets.
-            </p>
+            <h4 className="vertical-timeline-element-subtitle">IBM</h4>
           </VerticalTimelineElement>
-          
         </VerticalTimeline>
       </div>
     </div>
