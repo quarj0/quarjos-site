@@ -1,41 +1,44 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Education.css";
-
 const Education = () => {
   return (
-    <div className="container edu-container text-body-primary">
-      <div className="top-section">
+    <div className="container mx-auto px-4 py-8 text-gray-800">
+      {/* Top Section */}
+      <div className="text-center mb-6">
         <i
           data-aos="fade-right"
-          className="fa fa-university fa-1x fa-ico mb-3 text-uppercase"
+          className="fa fa-university text-2xl font-semibold uppercase mb-3 text-blue-600"
         >
           {" "}
           Education
         </i>
       </div>
-      <div className="title">
-        <h2>
-          Education &<span className="text-success"> Qualifications</span>
+
+      {/* Title Section */}
+      <div className="text-center mb-8">
+        <h2 className="text-2xl md:text-3xl font-bold">
+          Education &<span className="text-green-500"> Qualifications</span>
         </h2>
       </div>
-      <div className="timeline">
-        <div className="line"></div>
 
-        <div className="section">
-          <div className="bead"></div>
-          <div className="content">
-            <h3>Bachelor Degree Information Technology</h3>
-            <p className=" institution">University of Cape Coast</p>
+      {/* Timeline Section */}
+      <div className="relative border-l-4 border-blue-600">
+        {/* Timeline Item 1 */}
+        <div className="mb-10 ml-8">
+          <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2.5"></div>
+          <div className="bg-gray-50 p-4 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2">
+              Bachelor Degree Information Technology
+            </h3>
+            <p className="text-gray-600">University of Cape Coast</p>
           </div>
         </div>
 
-        <div className="section">
-          <div className="bead"></div>
-          <div className="content">
-            <h3>High School</h3>
-            <p className=" institution">Collins Senior High School</p>
-            <br />
-            <small className=" education-date">
+        {/* Timeline Item 2 */}
+        <div className="mb-10 ml-8">
+          <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2.5"></div>
+          <div className="bg-gray-50 p-4 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2">High School</h3>
+            <p className="text-gray-600">Collins Senior High School</p>
+            <small className="block text-gray-500 mt-2">
               <strong>Major:</strong> General Science
             </small>
           </div>

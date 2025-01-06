@@ -6,43 +6,61 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Certifications = () => {
   return (
-    <div className="card">
-      <div className="card-header bg-primary text-white text-uppercase">
-        <i className="fa fa-certificate fa-1x fa-ico mb-3 text-uppercase">
+    <div className="bg-gray-50 p-6 shadow-lg rounded-lg">
+      {/* Header Section */}
+      <div className="bg-blue-600 text-white text-center p-4 rounded-t-lg">
+        <i className="fa fa-certificate text-2xl uppercase font-semibold">
           {" "}
           Qualifications
         </i>
       </div>
-      <div className="card-header">
-        <h3 className="text-header text-capitalize m-1">
-          awards & <span className="text-success">achievements</span>
+      <div className="p-4">
+        <h3 className="text-xl md:text-2xl font-semibold text-gray-700 mb-4 text-center">
+          Awards & <span className="text-green-500">Achievements</span>
         </h3>
-      </div>
-      <div className="card-body">
+
+        {/* Timeline Section */}
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentStyle={{
+              background: "rgb(33, 150, 243)",
+              color: "#fff",
+              borderRadius: "8px",
+            }}
             contentArrowStyle={{ borderRight: "4px solid  rgb(33, 150, 243)" }}
-            date="2023 - present"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{
+              background: "rgb(33, 150, 243)",
+              color: "#fff",
+            }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Secuirty Operations
+            <h3 className="vertical-timeline-element-title font-semibold text-lg">
+              Security Operations
             </h3>
-            <h4 className="vertical-timeline-element-subtitle ">(ISC)²</h4>
+            <h4 className="vertical-timeline-element-subtitle text-gray-200">
+              (ISC)²
+            </h4>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentStyle={{
+              background: "rgb(33, 150, 243)",
+              color: "#fff",
+              borderRadius: "8px",
+            }}
             contentArrowStyle={{ borderRight: "4px solid  rgb(33, 150, 243)" }}
-            date="2022 - 2023"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{
+              background: "rgb(33, 150, 243)",
+              color: "#fff",
+            }}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title font-semibold text-lg">
               IBM Cybersecurity Analyst Professional Certificate
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">IBM</h4>
+            <h4 className="vertical-timeline-element-subtitle text-gray-200">
+              IBM
+            </h4>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

@@ -1,140 +1,72 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/Education.css";
+import "aos/dist/aos.css";
+
+const workExperience = [
+  {
+    title: "Software Developer",
+    company: "Full Stack Developer - Kumasi Hive",
+    duration: "2024 - Present",
+    tasks: [
+      "Developing web applications using React and Django.",
+      "Building APIs using Django and MySQL or PostgreSQL.",
+      "Creating and designing user interfaces.",
+      "Testing and debugging applications.",
+    ],
+  },
+  {
+    title: "IT Support",
+    company: "Faculty of Law - University of Cape Coast",
+    duration: "2023 - 2024",
+    tasks: [
+      "Providing technical support to staff and students.",
+      "Assisting in the installation of new hardware and software.",
+      "Managing the faculty's network.",
+      "Maintaining and troubleshooting computer systems.",
+    ],
+  },
+];
 
 const Work = () => {
   return (
-    <div className="container edu-container text-body-primary">
-      <div className="top-section">
+    <div className="container mx-auto px-4 py-8 text-gray-800">
+      <div className="text-center mb-8">
         <i
           data-aos="fade-right"
-          className="fa fa-briefcase fa-1x fa-ico mb-3 text-uppercase"
+          className="fa fa-briefcase text-2xl text-primary mb-2 uppercase"
         >
           experience
         </i>
-      </div>
-      <div className="title">
-        <h2>
-          Work &<span className="text-success"> Experience</span>
+        <h2 className="text-3xl font-bold">
+          Work &<span className="text-green-500"> Experience</span>
         </h2>
       </div>
-      <div className="timeline">
-        <div className="line"></div>
+      <div className="relative">
+        {/* Vertical Timeline Line */}
+        <div className="absolute left-5 top-0 bottom-0 w-1 bg-gray-300"></div>
 
-        <div className="section">
-          <div className="bead"></div>
-          <div className="content">
-            <h3>Software Developer</h3>
-            <span>Full Stack developer - Kumasi Hive</span>
-            <p>
-              I am served my national service at Kumasi Hive.
-              An innovative and research company, helping SMEs and startups.
-            </p>
-            <small className="education-date">2024 - present</small>
-          </div>
-        </div>
-        <div className="section">
-          <div className="bead"></div>
-          <div className="content">
-            <h3>IT Support</h3>
-            <p>
-              IT Support at the University of Cape Coast (Faculty of Law) . My
-              responsibilities include the following:
-            </p>
-            <ul>
-              <li>Providing technical support to staff and students.</li>
-              <li>
-                Assisting in the installation of new hardware and software.
-              </li>
-              <li>
-                Assisting in the management of the faculty&apos;s network.
-              </li>
-              <li>
-                Fixing and maintaining the faculty&apos;s computer systems.
-              </li>
-            </ul>
-            <small className="education-date">2023 - 2024</small>
-          </div>
-        </div>
-
-        <div className="section">
-          <div className="bead"></div>
-          <div className="content">
-            <h3>IT Support Internship</h3>
-            <p>
-              During my internship at the University of Cape Coast, I was
-              responsible for the following:
-            </p>
-            <ul>
-              <li>
-                Assisted in the installation of a new network infrastructure.
-              </li>
-              <li>
-                Assisted in the managing of the university&apos;s online
-                learning platform.
-              </li>
-              <li>
-                Assisted in performing routine maintenance on the
-                university&apos;s network infrastructure.
-              </li>
-              <li>
-                Tested and evaluated new technologies to be used by the
-                university.
-              </li>
-              <li>
-                Troubleshooted and resolved issues with the university&apos;s IT
-                infrastructure including systems, networks, and applications.
-              </li>
-            </ul>
-            <small className="education-date">September-November, 2023</small>
-          </div>
-        </div>
-
-        <div className="section">
-          <div className="bead"></div>
-          <div className="content">
-            <h3>IT Manager at LuvTv & LuvFm Online</h3>
-            <p>
-              As the IT Manager at Luvtv and Luvfm Online, I was responsible for
-              the following:
-            </p>
-            <ul>
-              <li>
-                Implemented a system upgrade that improved network performance
-                by 30%.
-              </li>
-              <li>
-                Managed a team other IT professionals to ensure the smooth
-                running of the company&apos;s IT infrastructure.
-              </li>
-              <li>
-                Managed the company&apos;s website and social media platforms.
-              </li>
-            </ul>
-            <small className="education-date">2020 - 2021</small>
-          </div>
-        </div>
-
-        <div className="section">
-          <div className="bead"></div>
-          <div className="content">
-            <h3>
-              BigBen&apos; Printing Press - Graphic Designer & Print Specialist
-            </h3>
-            <p>
-              As the Graphic Designer and Print Specialist at BigBen&apos;
-              Printing Press, I was responsible for the following:
-            </p>
-            <ul>
-              <li>
-                Created and designed graphics for the company&apos;s clients.
-              </li>
-              <li>
-                Mangaged the printing of the company&apos;s clients&apos;
-                products.
-              </li>
-            </ul>
-            <small className="education-date">2016 - 2017</small>
-          </div>
+        {/* Timeline Sections */}
+        <div className="space-y-8">
+          {workExperience.map((job, index) => (
+            <div key={index} className="flex items-start space-x-4">
+              {/* Bead */}
+              <div className="w-4 h-4 bg-blue-500 rounded-full mt-1.5"></div>
+              {/* Content */}
+              <div
+                data-aos="fade-up"
+                className="bg-white p-6 rounded-lg shadow-md w-full"
+              >
+                <h3 className="text-xl font-semibold">{job.title}</h3>
+                <span className="block text-gray-500">{job.company}</span>
+                <ul className="list-disc list-inside mt-2 text-gray-700">
+                  {job.tasks.map((task, taskIndex) => (
+                    <li key={taskIndex}>{task}</li>
+                  ))}
+                </ul>
+                <small className="block mt-3 text-sm text-gray-500">
+                  {job.duration}
+                </small>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

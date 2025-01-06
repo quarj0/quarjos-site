@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Introduction from "./Introduction.jsx";
 import About from "./About.jsx";
 import Certificate from "./Certificates.jsx";
 import Education from "./Education.jsx";
@@ -54,7 +53,6 @@ const ContentCard = () => {
             <FixedCard />
           </div>
           <div className="col-lg-8 col-md-12 scrollable-contents">
-            <Introduction />
             <About />
             <Education />
             <Certificate />

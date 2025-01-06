@@ -11,86 +11,83 @@ const FixedCard = () => {
   };
 
   return (
-    <div className="card container-fluid p-1 fixed-card ">
+    <div className="card container-fluid p-1 fixed-card">
       <div className="text-body-primary">
-        <div className="text-body-primary text-end">
+        <div className="text-end">
           <small className="text-sm-center text-break fs-6">
             Aspiring Cybersecurity Analyst
           </small>
         </div>
-        <div className="text-body-primary text-end">
-          <small className="text-sm-center text-break fs-6">Software Developer</small>
+        <div className="text-end">
+          <small className="text-sm-center text-break fs-6">
+            Software Developer
+          </small>
         </div>
       </div>
       <img
         src="https://avatars.githubusercontent.com/u/54241472?v=4"
-        alt="mypic"
+        alt="My Profile Picture"
         className="mypic"
       />
-
-      <p className="text-body-primary mt-4">
-        Kumasi, Ghana
-      </p>
-      <div className="social-icons">
-        <div className="icons-container icon-link">
+      <p className="text-body-primary mt-4">Kumasi, Ghana</p>
+      <div className="social-icons flex space-x-4">
+        {/* Social Links with added rel="noopener noreferrer" for security */}
+        <div className="icons-container">
           <a
-            color="black"
-            className="icon-link"
             href="https://github.com/quarj0/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit my GitHub"
           >
             <FaGithub className="icon" />
           </a>
         </div>
-        <div className="icons-container icon-link">
+        <div className="icons-container">
           <a
-            color="blue"
-            className="icon-link"
             href="https://linkedin.com/in/quarjo/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit my LinkedIn"
           >
             <FaLinkedin className="icon" />
           </a>
         </div>
-        <div className="icons-container icon-link">
+        <div className="icons-container">
           <a
-            color="#1DA1F2"
-            className="icon-link-"
             href="https://x.com/quarjowusu/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit my Twitter (X)"
           >
             <FaTwitter className="icon" />
           </a>
         </div>
-        <div className="icons-container icon-link-">
+        <div className="icons-container">
           <a
-            color="#E1306C"
-            className="icon-link"
             href="https://www.instagram.com/quarjowusu/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit my Instagram"
           >
             <FaInstagram className="icon" />
           </a>
         </div>
       </div>
-      <div className="card-text">
+      <div className="card-text mt-3">
         <p className="text-body-primary">
-          <small className="text-sm-center ">
+          <small className="text-sm-center">
             &copy; 2023 quarjo&apos;s site. All Rights Reserved
           </small>
         </p>
       </div>
       <button
-        className="btn btn-outline-success btn-sm w-25 text-uppercase"
+        className="btn btn-outline-success btn-sm w-25 text-uppercase mt-3"
         onClick={handleMailTo}
+        aria-label="Email me for inquiries"
       >
-        <i className="fa fa-envelope " >
-          <span className="card-text"> hire me</span>
-          </i>
+        <i className="fa fa-envelope">
+          <span className="card-text"> Hire me</span>
+        </i>
       </button>
     </div>
   );
