@@ -1,51 +1,49 @@
-const Education = () => {
+const EducationSection = () => {
   return (
-    <div className="container mx-auto px-4 py-8 text-gray-800">
-      {/* Top Section */}
-      <div className="text-center mb-6">
-        <i
-          data-aos="fade-right"
-          className="fa fa-university text-2xl font-semibold uppercase mb-3 text-blue-600"
-        >
-          {" "}
-          Education
-        </i>
-      </div>
-
-      {/* Title Section */}
-      <div className="text-center mb-8">
-        <h2 className="text-2xl md:text-3xl font-bold">
-          Education &<span className="text-green-500"> Qualifications</span>
-        </h2>
-      </div>
-
-      {/* Timeline Section */}
-      <div className="relative border-l-4 border-blue-600">
-        {/* Timeline Item 1 */}
-        <div className="mb-10 ml-8">
-          <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2.5"></div>
-          <div className="bg-gray-50 p-4 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">
-              Bachelor Degree Information Technology
-            </h3>
-            <p className="text-gray-600">University of Cape Coast</p>
-          </div>
+    <section className="bg-gradient-to-r from-black via-gray-800 to-black text-white min-h-screen flex justify-center items-center px-6 py-12">
+      <div className="max-w-5xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12">
+        {/* Left Section */}
+        <div className="space-y-6">
+          <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
+          <div className="w-1/2 h-1 bg-blue-400"></div>
+          <p className="text-gray-400 leading-relaxed">
+            Started from the bottom, now we&apos;re here. I&apos;ve been through
+            a lot of education journey to get where I am today. Here are some of
+            the highlights of my education journey.
+          </p>
         </div>
 
-        {/* Timeline Item 2 */}
-        <div className="mb-10 ml-8">
-          <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2.5"></div>
-          <div className="bg-gray-50 p-4 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">High School</h3>
-            <p className="text-gray-600">Collins Senior High School</p>
-            <small className="block text-gray-500 mt-2">
-              <strong>Major:</strong> General Science
-            </small>
+        {/* Right Section */}
+        <div className="space-y-6">
+          <h3 className="text-7xl font-bold text-gray-500">2020 - 2024</h3>
+          <div className="space-y-4">
+            <div>
+              <h4 className="text-lg font-semibold text-white">
+                Senior High School
+              </h4>
+              <p className="text-gray-400">Collins Senior High | Major: Science | 2020</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold text-white">
+                Bachelor Degree
+              </h4>
+              <p className="text-gray-400">
+                University of Cape Coast | BSc. Information Technology | 2024
+              </p>
+            </div>
+            {/* <div>
+              <h4 className="text-lg font-semibold text-white">
+                Master Degree
+              </h4>
+              <p className="text-gray-400">
+                Borcelle Art University | Master of Communication | 2019
+              </p>
+            </div> */}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Education;
+export default EducationSection;

@@ -1,20 +1,12 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-
 const Footer = () => {
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col text-center">
-          <p className="text-body-primary">
-            Thank you for visiting my portfolio website. I hope you find it
-            informative and inspiring. I look forward to connecting with you and
-            embarking on this exciting journey together.
-          </p>
-          <p className="text-body-primary">
-          &copy; 2023 quarjo&apos;s site. All Rights Reserved
-          </p>
-        </div>
-      </div>
+    <div className="bg-gradient-to-r from-black via-gray-800 to-black">
+      <footer className="flex flex-col md:flex-row justify-between items-center px-6 md:px-8 py-4 border-t border-gray-600">
+        <p className="text-gray-500 text-xs md:text-sm uppercase tracking-widest mb-4 md:mb-0">
+          Portfolio &copy; {new Date().getFullYear()}
+        </p>
+        <div className="h-[2px] w-16 md:w-24 bg-gray-500"></div>
+      </footer>
     </div>
   );
 };
