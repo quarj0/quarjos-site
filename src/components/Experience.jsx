@@ -1,6 +1,6 @@
 const ExperienceSection = () => {
   return (
-    <section className="bg-gradient-to-r from-black via-gray-800 to-black text-white min-h-screen flex justify-center items-center px-4 md:px-6 py-12">
+    <section className="bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white min-h-screen flex justify-center items-center px-4 md:px-6 py-12">
       <div className="max-w-5xl w-full">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">

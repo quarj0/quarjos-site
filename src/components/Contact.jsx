@@ -11,7 +11,7 @@ import { HiLocationMarker } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-black via-gray-900 to-black text-white px-6">
+    <div className="bg-gradient-to-r from-black via-gray-900 to-purple-950 flex items-center justify-center min-h-screen text-white px-6">
       <div className="text-center p-8 max-w-4xl w-full">
         {/* Header Section */}
         <h2 className="text-3xl font-bold mb-2">GET IN TOUCH</h2>

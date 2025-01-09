@@ -1,6 +1,6 @@
 const EducationSection = () => {
   return (
-    <section className="bg-gradient-to-r from-black via-gray-800 to-black text-white min-h-screen flex justify-center items-center px-6 py-12">
+    <section className="bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white min-h-screen flex justify-center items-center px-6 py-12">
       <div className="max-w-5xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Left Section */}
         <div className="space-y-6">

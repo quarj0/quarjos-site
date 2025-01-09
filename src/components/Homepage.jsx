@@ -1,6 +1,6 @@
 const Homepage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-black via-gray-800 to-black text-white flex flex-col">
+    <div className="min-h-screen bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white flex flex-col">
       <div className="flex-1 flex flex-col md:flex-row items-center justify-evenly px-6 md:px-12">
         <div className="max-w-lg text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4">

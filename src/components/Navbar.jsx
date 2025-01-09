@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-black via-gray-800 to-black text-white relative">
+    <div className="bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white relative">
       {/* Logo Section */}
       <div className="absolute top-4 left-4 z-20">
         <Link

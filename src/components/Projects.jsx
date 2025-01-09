@@ -7,12 +7,12 @@ import Weloret from "../assets/images/Weloret.png";
 
 const Projects = () => {
   return (
-    <section className="bg-gradient-to-r from-black via-gray-800 to-black text-white min-h-screen flex flex-col justify-between px-4 md:px-6 py-12">
+    <section className="bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white min-h-screen flex flex-col justify-between px-4 md:px-6 py-12">
       <div className="max-w-7xl w-full mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
           SELECTED PROJECTS
         </h2>
-        <div className="w-1/3 md:w-2/5 h-1 bg-blue-400 mb-12"></div>
+        <div className="w-1/3 md:w-2/3 h-1 bg-blue-400 mb-12"></div>
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
