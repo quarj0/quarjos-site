@@ -8,7 +8,7 @@ import Weloret from "../assets/images/Weloret.png";
 const Projects = () => {
   return (
     <section className="bg-gradient-to-r from-black via-gray-800 to-black text-white min-h-screen flex flex-col justify-between px-4 md:px-6 py-12">
-      <div className="max-w-5xl w-full mx-auto">
+      <div className="max-w-7xl w-full mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
           SELECTED PROJECTS
         </h2>
@@ -17,11 +17,11 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Project 1 */}
-          <div className="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
+          <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
             <img
               src={Weloret}
               alt="Weloret Research Hub Project"
-              className="w-full h-40 object-cover rounded-t-lg mb-4"
+              className="w-full h-auto object-cover rounded-t-lg mb-4"
             />
             <h3 className="text-lg md:text-xl font-medium mb-2">
               Weloret Research Hub | 2024
@@ -44,7 +44,7 @@ const Projects = () => {
           </div>
 
           {/* Project 2 */}
-          <div className="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
+          <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
             <img
               src={SystemAnalyzer}
               alt="System Analyzer Project"
@@ -71,7 +71,7 @@ const Projects = () => {
           </div>
 
           {/* Project 3 */}
-          <div className="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
+          <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
             <img
               src={RealCPO}
               alt="RealCPO Project"
@@ -96,7 +96,7 @@ const Projects = () => {
 
           {/* Project 4 */}
 
-          <div className="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
+          <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
             <img
               src={KumasiHive}
               alt="Kumasi Hive Website Project"
@@ -121,7 +121,7 @@ const Projects = () => {
 
           {/* Project 5 */}
 
-          <div className="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
+          <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
             <img
               src={ATMMobile || ATMIinterface}
               alt="ATM Project"

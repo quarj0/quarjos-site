@@ -17,7 +17,7 @@ const Navbar = () => {
           to="/"
           className="text-xs sm:text-sm bg-blue-700 px-2 py-1 rounded hover:bg-blue-800"
         >
-          ONLINE PORTFOLIO
+          QUARJO PORTFOLIO
         </Link>
       </div>
 
