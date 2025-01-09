@@ -19,23 +19,30 @@ const ExperienceSection = () => {
             {
               company: "Kumasi Hive",
               role: "Software Developer",
-              period: "2024 - 2025",
+              period: "2024 - present",
               description:
-                "I was responsible for building and maintaining the company's software systems, collaborating with cross-functional teams to deliver high-quality products.",
+                "I am responsible for building and maintaining the company's software systems, collaborating with cross-functional teams to deliver high-quality products.",
             },
             {
-              company: "Borcelle",
-              role: "Junior Developer",
-              period: "2022 - 2024",
+              company: "College of Distance Education (UCC)",
+              role: "IT Support Specialist",
+              period: "2023 - 2024",
               description:
-                "Developed scalable web applications, fixed bugs, and optimized existing features to improve user experience and system performance.",
+                "Provided technical support to students and staff, managed IT infrastructure, and implemented security measures to protect the network.",
             },
             {
-              company: "Arrowai Industries",
-              role: "Content Creator",
-              period: "2020 - 2022",
+              company: "Freelancer",
+              role: "Web Developer & Cybersecurity Analyst",
+              period: "2021 - present",
               description:
-                "Managed and produced digital content for marketing campaigns, increasing engagement by 30% across multiple platforms.",
+                "Develope websites and web applications for clients, conducts penetration testing, and implemented security measures to protect websites from cyber threats.",
+            },
+            {
+              company: "LoveTv and Radio Online",
+              role: "IT Support Specialist",
+              period: "2020 - 2021",
+              description:
+                "Provided technical support to staff, managed IT infrastructure, and implemented security measures to protect the network.",
             },
           ].map((experience, index) => (
             <div

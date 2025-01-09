@@ -17,15 +17,60 @@ const BiographySection = () => {
             My Biography
           </h2>
           <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit
-            amet massa sed leo molestie ultrices in non mi. Suspendisse molestie
-            nisl ac aliquet pretium. Suspendisse dignissim, odio non hendrerit
-            suscipit, lorem ipsum tempus tortor, suscipit vestibulum velit quam
-            nec mi.
+            Before embarking on my career in the tech industry, I was a student
+            with a deep passion for technology and computer science. Although my
+            initial focus was on pursuing oil engineering at university, my
+            interest in computers and technology remained strong. I was
+            fascinated by how computers function and how software is developed.
+            Additionally, I had a keen interest in cybersecurity and the
+            measures necessary to protect systems and networks from cyber
+            threats. Driven by curiosity and a desire to expand my knowledge, I
+            began self-learning various programming languages and delved into
+            the field of cybersecurity. I honed my skills in web development,
+            software development, and game creation, using a variety of
+            programming languages and frameworks. Over time, I built a solid
+            foundation in computer science and information technology, gaining
+            valuable experience in software and web development, as well as IT
+            support. I continuously sought opportunities to learn and grow
+            within the ever-evolving tech industry.
           </p>
           <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
-            Aliquam luctus faucibus augue, in porttitor eros imperdiet sit amet.
-            Vivamus vel tortor at risus vestibulum elementum accumsan id ante.
+            I specialize in backend development for web applications and
+            software. I have hands-on experience building web applications using
+            the <strong>Django</strong> framework and <strong>ReactJS</strong>
+            library. My expertise includes developing RESTful APIs, web
+            services, and managing databases. I am proficient in working with
+            databases such as <strong>PostgreSQL, MySQL, and SQLite</strong>.
+            Additionally, I have solid experience using{" "}
+            <strong>Git for version control</strong>
+            and working with the <strong>Linux operating system.</strong>
+          </p>
+
+          <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
+            I hold multiple <strong>IBM certifications</strong> in cybersecurity
+            and IT support, including the{" "}
+            <strong>IBM Cybersecurity Analyst Professional Certificate</strong>,{" "}
+            <strong>Database Essentials</strong> from the University of
+            Colorado, and <strong>System Security</strong> by ISC2, among
+            others. I am currently working towards obtaining the{" "}
+            <strong>CySA+</strong> and{" "}
+            <strong>Google IT Support Certifications</strong>. These
+            certifications have provided me with a strong foundation in{" "}
+            <strong>
+              cybersecurity principles<strong>, </strong>network security
+            </strong>
+            , <strong>incident response</strong>, and{" "}
+            <strong>IT support</strong> concepts. I am proficient in
+            troubleshooting both hardware and software issues, providing
+            effective <strong>technical assistance</strong> to end-users, and
+            resolving complex IT problems. With a solid understanding of
+            <strong>computer networks</strong>,{" "}
+            <strong>operating systems</strong>, and{" "}
+            <strong>security protocols</strong>, I am well-equipped to protect
+            systems and networks from cyber threats. I am dedicated to
+            continuous learning and professional development to ensure I remain
+            up-to-date with the latest trends and technologies in the
+            ever-evolving tech industry.
           </p>
 
           {/* Skills Section */}

@@ -123,7 +123,7 @@ const Projects = () => {
 
           <div className="bg-gray-800 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
             <img
-              src={ATMMobile & ATMIinterface}
+              src={ATMMobile || ATMIinterface}
               alt="ATM Project"
               className="w-full h-40 object-cover rounded-t-lg mb-4"
             />
