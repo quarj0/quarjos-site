@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Homepage from "./components/Homepage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (

@@ -7,9 +7,11 @@ const EducationSection = () => {
           <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
           <div className="w-1/2 h-1 bg-blue-400"></div>
           <p className="text-gray-400 leading-relaxed">
-            Started from the bottom, now we&apos;re here. I&apos;ve been through
-            a lot of education journey to get where I am today. Here are some of
-            the highlights of my education journey.
+            I have a strong educational background in Information Technology and
+            Science. I have completed my Senior High School education at Collins
+            Senior High School, where I studied Science. I furthered my
+            education at the University of Cape Coast, where I pursued a
+            Bachelor of Science degree in Information Technology.
           </p>
         </div>
 
@@ -21,7 +23,9 @@ const EducationSection = () => {
               <h4 className="text-lg font-semibold text-white">
                 Senior High School
               </h4>
-              <p className="text-gray-400">Collins Senior High | Major: Science | 2020</p>
+              <p className="text-gray-400">
+                Collins Senior High | Major: Science | 2020
+              </p>
             </div>
             <div>
               <h4 className="text-lg font-semibold text-white">
