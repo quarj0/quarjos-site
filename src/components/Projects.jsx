@@ -12,7 +12,7 @@ const Projects = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
           SELECTED PROJECTS
         </h2>
-        <div className="w-1/3 md:w-2/3 h-1 bg-blue-400 mb-12"></div>
+        <div className="w-1/2 h-2 bg-blue-500 mb-12"></div>
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -2,16 +2,16 @@ const ExperienceSection = () => {
   return (
     <section className="bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white min-h-screen flex justify-center items-center px-4 md:px-6 py-12">
       <div className="max-w-5xl w-full">
-        {/* Header */}
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
+        {/* /* Header */}
+        <div className="flex flex-col md:flex-row md:items-center md:justify-normal mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
             EXPERIENCE
           </h2>
-          <p className="text-4xl md:text-5xl lg:text-7xl text-gray-200 mt-4 md:mt-0">
+          <p className="text-4xl md:text-5xl lg:text-7xl md:ml-36 font-black text-transparent mt-4 md:mt-0" style={{ WebkitTextStroke: '1px #E5E7EB' }}>
             2020 - 2025
           </p>
         </div>
-        <div className="w-1/4 h-1 bg-blue-400 mb-12"></div>
+        <div className="w-1/4 h-2 bg-blue-500 mb-12"></div>
         {/* Experience List */}
         <div className="space-y-8">
           {/* Experience Item */}

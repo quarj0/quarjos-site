@@ -13,10 +13,10 @@ const BiographySection = () => {
 
         {/* Content Section */}
         <div className="flex-1 space-y-6">
-          <h2 className="text-3xl sm:text-4xl font-bold text-blue-400">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">
             My Biography
           </h2>
-          <div className="w-2/3 h-1 bg-purple-800"></div>
+          <div className="w-2/3 h-2 bg-blue-500"></div>
           <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
             Before starting my career in tech, I was a student passionate about
             computers and technology. Although I initially had the interest to
