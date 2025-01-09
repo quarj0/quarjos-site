@@ -33,9 +33,7 @@ const Navbar = () => {
         )}
       </div>
 
-      {/* Navigation Menu */}
       <nav className="flex justify-center items-center px-4 sm:px-8  py-4">
-        {/* Full Menu for Larger Screens */}
         <ul className="hidden sm:flex space-x-8 md:space-x-4 md:ml-12 uppercase text-sm tracking-widest ">
           <Link to="/about">
             <li className="hover:text-blue-400 cursor-pointer">About me</li>
@@ -61,7 +59,7 @@ const Navbar = () => {
               className="absolute top-4 right-4 text-gray-400 hover:text-white"
               onClick={toggleMenu}
             >
-              &#10005; {/* Close Icon */}
+              &#10005; 
             </button>
             <Link
               to="/about"
