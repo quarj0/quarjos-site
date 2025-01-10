@@ -1,4 +1,4 @@
-import MyImage from "../assets/images/plain pic3.png";
+import MyImage from "../assets/images/plain pic4.webp";
 
 
 const Homepage = () => {
