@@ -1,3 +1,6 @@
+import MyImage from "../assets/images/plain pic3.png";
+
+
 const Homepage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white flex flex-col">
@@ -20,9 +23,9 @@ const Homepage = () => {
         {/* Image */}
         <div className="mt-8 md:mt-0">
           <img
-            src="https://avatars.githubusercontent.com/u/54241472?v=4"
+            src={MyImage}
             alt="Owusu Ansah"
-            className="w-[150px] sm:w-[200px] md:w-[300px] lg:w-[400px] h-auto object-cover rounded-full shadow-lg"
+            className="w-[200px] sm:w-[300px] md:w-[400px] lg:w-[600px] h-auto object-cover rounded-full shadow-lg"
           />
         </div>
       </div>
