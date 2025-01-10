@@ -24,7 +24,7 @@ const Homepage = () => {
         <div className="mt-8 md:mt-0">
           <img
             src={MyImage}
-            alt="Owusu Ansah"
+            alt="owusu's picture"
             className="w-[200px] sm:w-[300px] md:w-[400px] lg:w-[600px] h-auto object-cover rounded-full shadow-lg"
           />
         </div>

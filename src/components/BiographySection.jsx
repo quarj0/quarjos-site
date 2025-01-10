@@ -8,7 +8,7 @@ const BiographySection = () => {
           <div className="w-full sm:w-2/3 lg:w-1/2 flex justify-center">
             <img
               src={MyPic}
-              alt="Person"
+              alt="owusu's image"
               className="w-full h-auto max-w-[800px] sm:max-w-[500px] lg:max-w-none rounded-full shadow-lg"
             />
           </div>
