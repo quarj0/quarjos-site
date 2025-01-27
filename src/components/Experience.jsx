@@ -24,12 +24,18 @@ const ExperienceSection = () => {
                 "I am responsible for building and maintaining the company's software systems, collaborating with cross-functional teams to deliver high-quality products.",
             },
             {
+              "company": "CyberTeq",
+              role: "Capture the Flag Challenge (CTF)",
+              description: "Hands-on experience identifying and exploring vulnerabilities in linux and Windows systems, enhancing skills in privilege excalation and post-exploitation",
+            },
+            {
               company: "College of Distance Education (UCC)",
               role: "IT Support Specialist",
               period: "2023 - 2024",
               description:
                 "Provided technical support to students and staff, managed IT infrastructure, and implemented security measures to protect the network.",
             },
+            
             {
               company: "Freelancer",
               role: "Web Developer & Cybersecurity Analyst",

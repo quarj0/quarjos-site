@@ -41,6 +41,9 @@ const Navbar = () => {
           <Link to="/education">
             <li className="hover:text-blue-400 cursor-pointer">Education</li>
           </Link>
+          <Link to="/certifications">
+            <li className="hover:text-blue-400 cursor-pointer">Certifications</li>
+          </Link>
           <Link to="/experience">
             <li className="hover:text-blue-400 cursor-pointer">Experience</li>
           </Link>
@@ -74,6 +77,13 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               Education
+            </Link>
+            <Link
+              to="/certifications"
+              className="text-white text-lg hover:text-blue-400"
+              onClick={toggleMenu}
+            >
+              Cerifications
             </Link>
             <Link
               to="/experience"

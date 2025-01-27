@@ -5,6 +5,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects"; 
 import Contact from "./components/Contact";
 import Homepage from "./components/Homepage";
+import Certifications from "./components/Ceritfications";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<BiographySection />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/certifications" element={<Certifications />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />

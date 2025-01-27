@@ -10,12 +10,12 @@ const Homepage = () => {
             I&apos;m Owusu Ansah
           </h1>
           <p className="text-blue-400 text-xs md:text-sm uppercase tracking-widest mb-6">
-            Software Developer | Aspiring Cybersecurity Analyst
+            Aspiring Cybersecurity Analyst | Sofware Developer
           </p>
           <p className="text-gray-400 leading-relaxed">
-            I am a software developer with a passion for building secure and
-            scalable applications. I am interested in cybersecurity and I am
-            currently learning more about it. I am also a tech enthusiast who
+            I am an aspiring cybersecurity Analyst and I am currently learning more
+            about it. I am also software developer with a passion for building
+            secure and scalable applications. I am also a tech enthusiast who
             loves to explore new technologies and tools.
           </p>
         </div>
