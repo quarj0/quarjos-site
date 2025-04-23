@@ -106,7 +106,7 @@ const Contact = () => {
           <div className="flex flex-col items-center">
             <FaWhatsapp className="h-12 w-12 text-green-400 mb-2" />
             <h3 className="font-semibold text-xl">WhatsApp</h3>
-            <p className="text-gray-400">+233 559 537 405</p>
+            <p className="text-gray-400">+233 595 603 554</p>
           </div>
         </div>
 

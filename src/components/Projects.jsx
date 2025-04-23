@@ -103,7 +103,7 @@ const Projects = () => {
               className="w-full h-40 object-cover rounded-t-lg mb-4"
             />
             <h3 className="text-lg md:text-xl font-medium mb-2">
-              Kumasi Hive Website Project | 2024
+              Kumasi Hive Website | 2024
             </h3>
             <p className="text-gray-400 leading-relaxed text-sm md:text-base">
               I developed the Kumasi Hive website, a platform focused on
