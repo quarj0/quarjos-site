@@ -1,6 +1,6 @@
 {
-  "/certifications/page": "app/certifications/page.js",
   "/page": "app/page.js",
-  "/education/page": "app/education/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/certifications/page": "app/certifications/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/education/page": "app/education/page.js"
 }

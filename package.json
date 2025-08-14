@@ -55,6 +55,7 @@
     "hint": "^2.0.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "browserslist": "^4.24.4"
   }
 }
