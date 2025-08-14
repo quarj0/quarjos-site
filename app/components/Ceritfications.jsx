@@ -1,84 +1,85 @@
+const certifications = [
+  {
+    title: "Cyber Security Analyst Professional",
+    issuer: "IBM",
+    period: "",
+    description: "",
+  },
+  {
+    title: "Cyber Threat Intelligence",
+    issuer: "IBM",
+    period: "",
+    description: "",
+  },
+  {
+    title: "Penetration Testing, Incident Response, and Forensic",
+    issuer: "IBM",
+    period: "",
+    description: "",
+  },
+  {
+    title: "Cyber Compliance Framework & System Administration",
+    issuer: "IBM",
+    period: "",
+    description: "",
+  },
+  {
+    title: "Capture the Flag Challenge",
+    issuer: "CyberTeq",
+    period: "2022",
+    description:
+      "Identified and exploited vulnerabilities in 3 Linux and 1 Windows system.",
+  },
+  {
+    title: "Cyber Security Capstone",
+    issuer: "IBM",
+    period: "2023",
+    description: "Breach Response Case Studies",
+  },
+  {
+    title: "Security Principles",
+    issuer: "ISC2",
+    period: "",
+    description: "",
+  },
+];
+
 const CertificationSection = () => {
   return (
-    <section className="bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white min-h-screen flex justify-center items-center px-4 md:px-6 py-12">
-      <div className="max-w-5xl w-full">
-        {/* /* Header */}
-        <div className="flex flex-col md:flex-row md:items-center md:justify-normal mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white uppercase">
-            Cerfications & Achievements
+    <section className="bg-gradient-to-r from-black via-gray-900 to-purple-950 text-white py-16 px-4 md:px-6">
+      <div className="max-w-5xl mx-auto">
+        {/* Header */}
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-10">
+          <h2 className="text-3xl md:text-4xl font-bold uppercase">
+            Certifications & Achievements
           </h2>
           <p
-            className="text-4xl md:text-5xl lg:text-7xl md:ml-36 font-black text-transparent mt-4 md:mt-0"
+            className="text-4xl md:text-5xl lg:text-6xl font-black text-transparent mt-4 md:mt-0"
             style={{ WebkitTextStroke: "1px #E5E7EB" }}
           >
             2020 - 2025
           </p>
         </div>
-        <div className="w-1/4 h-2 bg-blue-500 mb-12"></div>
-        {/* Cerfications List */}
-        <div className="space-y-8">
-          {/* Cerfications Item */}
-          {[
-            {
-              company: "Cyber Security Analyst Professional",
-              cert: "",
-              period: "",
-              description: "IBM",
-            },
-            {
-              company: "Cyber Threat Intelligence",
-              cert: "",
-              period: "",
-              description: "IBM",
-            },
+        <div className="w-20 h-1 bg-blue-500 mb-12"></div>
 
-            {
-              company: "Penetration Testing, Incident Response, and Forensic",
-              cert: "",
-              period: "",
-              description: "IBM",
-            },
-            {
-              company: "Cyber Comppliance Framework & System Administration",
-              role: "",
-              period: "",
-              description: "IBM",
-            },
-            {
-              company: "Capture the Flag Challenge",
-              cert: "CyberTeq",
-              period: "2022",
-              description:
-                "Identified and eploited vulnerabilities in 3 Linux and a Window systems",
-            },
-            {
-              company: "Cyber Security Capstone",
-              cert: "IBM",
-              period: "2023",
-              description: "Breach Response Case Studies",
-            },
-            {
-              company: "Security Principles",
-              cert: "",
-              period: "",
-              description: "ISC2",
-            },
-          ].map((Cerfications, index) => (
+        {/* Certifications List */}
+        <div className="space-y-6">
+          {certifications.map((cert, index) => (
             <div
               key={index}
-              className="flex flex-col lg:flex-row lg:items-start"
+              className="bg-gray-800/40 backdrop-blur-md p-6 rounded-xl flex flex-col lg:flex-row gap-4 lg:gap-6 hover:shadow-lg transition-shadow duration-300"
             >
               <div className="lg:w-1/3">
-                <h4 className="text-lg font-semibold text-white">
-                  {Cerfications.company}
+                <h4 className="text-lg md:text-xl font-semibold text-white">
+                  {cert.title}
                 </h4>
                 <p className="text-gray-400">
-                  {Cerfications.cert} {Cerfications.period}
+                  {cert.issuer} {cert.period && `| ${cert.period}`}
                 </p>
               </div>
-              <div className="lg:w-2/3 lg:pl-6 mt-4 lg:mt-0">
-                <p className="text-gray-400 leading-relaxed">
-                  {Cerfications.description}
+              <div className="lg:w-2/3">
+                <p className="text-gray-300 leading-relaxed">
+                  {cert.description || "-"}
                 </p>
               </div>
             </div>
