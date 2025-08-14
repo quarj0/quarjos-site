@@ -196,6 +196,7 @@ class Renderer extends EventEmitter {
    *
    * @param {String} name
    * @param {Function|Node} fn
+   * @param {Boolean} [raw]
    * @return {Renderer} for chaining
    * @api public
    */

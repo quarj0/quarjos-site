@@ -88,8 +88,8 @@ exports.find = function(path, paths, ignore) {
 
   // Absolute
   if (exports.absolute(path)) {
-    if ((found = glob.sync(path)).length) {
-      return found;
+    if ((found = glob.sync(path, {windowsPathsNoEscape: true, posix: true})).length) {
+      return found.sort();
     }
   }
 
@@ -97,8 +97,8 @@ exports.find = function(path, paths, ignore) {
   while (i--) {
     lookup = join(paths[i], path);
     if (ignore == lookup) continue;
-    if ((found = glob.sync(lookup)).length) {
-      return found;
+    if ((found = glob.sync(lookup, {windowsPathsNoEscape: true, posix: true})).length) {
+      return found.sort();
     }
   }
 };
