@@ -1,9 +1,11 @@
 import SystemAnalyzer from "../assets/images/SystemAnalyzer.png";
 import ATMMobile from "../assets/images/mobiletrans.png";
-import ATMIinterface from "../assets/images/interface.png";
+// import ATMIinterface from "../assets/images/interface.png";
 import KumasiHive from "../assets/images/Kumasi Hive.png";
 import RealCPO from "../assets/images/RealCPO.png";
 import Weloret from "../assets/images/Weloret.png";
+import Image from "next/image";
+// import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -18,7 +20,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Project 1 */}
           <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
-            <img
+            <Image
               src={Weloret}
               alt="Weloret Research Hub Project"
               className="w-full h-auto object-cover rounded-t-lg mb-4"
@@ -41,11 +43,12 @@ const Projects = () => {
               is a powerful tool for driving academic and professional growth in
               the research community.
             </p>
+            {/* <Link href={"https"} */}
           </div>
 
           {/* Project 2 */}
           <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
-            <img
+            <Image
               src={SystemAnalyzer}
               alt="System Analyzer Project"
               className="w-full h-40 object-cover rounded-t-lg mb-4"
@@ -72,7 +75,7 @@ const Projects = () => {
 
           {/* Project 3 */}
           <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
-            <img
+            <Image
               src={RealCPO}
               alt="RealCPO Project"
               className="w-full h-40 object-cover rounded-t-lg mb-4"
@@ -97,7 +100,7 @@ const Projects = () => {
           {/* Project 4 */}
 
           <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
-            <img
+            <Image
               src={KumasiHive}
               alt="Kumasi Hive Website Project"
               className="w-full h-40 object-cover rounded-t-lg mb-4"
@@ -122,14 +125,12 @@ const Projects = () => {
           {/* Project 5 */}
 
           <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
-            <img
-              src={ATMMobile || ATMIinterface}
+            <Image
+              src={ATMMobile}
               alt="ATM Project"
               className="w-full h-40 object-cover rounded-t-lg mb-4"
             />
-            <h3 className="text-lg md:text-xl font-medium mb-2">
-              Fingerprint ATM Simulator | 2023
-            </h3>
+            <h3 className="text-lg md:text-xl font-medium mb-2">Vote | 2023</h3>
             <p className="text-gray-400 leading-relaxed text-sm md:text-base">
               Developed an Fingerprint ATM simulator application that provides a
               realistic banking experience for users. The application allows
@@ -145,14 +146,6 @@ const Projects = () => {
               safely and securely. This project was developed using Java
               programming language and MySQL database and was part of software
               engineering course that I helped a team of student to develop.
-            </p>
-          </div>
-           <div className="p-4 rounded-lg hover:shadow-lg transition-shadow duration-300 text-center">
-            <h3 className="text-lg md:text-xl font-medium mb-2">
-              GCP Project | 2024
-            </h3>
-            <p className="text-gray-400 leading-relaxed text-sm md:text-base">
-              Developed a GCP project.
             </p>
           </div>
         </div>

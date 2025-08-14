@@ -1,6 +1,7 @@
-
 import PropTypes from 'prop-types';
 import { metadata } from './metadata';
+
+import './styles/globals.css';
 
 export default function RootLayout({ children }) {
   return (
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
-      <body>{children}</body>
+      <body className="root">{children}</body>
     </html>
   );
 }
