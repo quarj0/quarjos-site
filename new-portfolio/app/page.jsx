@@ -11,26 +11,19 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      
-        <Homepage />
-        
-        
-        
-          <Education />
-        
-        
-          <Certifications />
-        
-        
-          <Experience />
-        
-        
-          <Projects />
-        
-        
-          <Contact />
-        
-      
+
+      <Homepage />
+
+      <Education />
+
+      <Certifications />
+
+      <Experience />
+
+      <Projects />
+
+      <Contact />
+
       <Footer />
     </>
   );

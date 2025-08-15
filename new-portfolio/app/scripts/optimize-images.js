@@ -7,8 +7,8 @@ import { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const inputDir = path.join(__dirname, '../assets/images');
-const outputDir = path.join(__dirname, '../assets/images/optimized');
+const inputDir = path.join(__dirname, '@/assets/images');
+const outputDir = path.join(__dirname, '@/assets/images/optimized');
 
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir);
