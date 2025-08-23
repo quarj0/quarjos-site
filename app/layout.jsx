@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { metadata } from "./metadata.jsx";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (

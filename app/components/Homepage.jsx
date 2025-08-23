@@ -21,7 +21,7 @@ const Homepage = () => {
               I&apos;m Owusu Ansah
             </h1>
             <p className="text-blue-400 text-xs md:text-sm uppercase tracking-widest mb-6">
-              Software Developer | Aspiring Cybersecurity Analyst
+              Software Developer | Cybersecurity Analyst
             </p>
             <p className="text-gray-400 leading-relaxed text-sm md:text-base">
               Software developer and certified cybersecurity professional

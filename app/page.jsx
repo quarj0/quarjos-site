@@ -14,16 +14,6 @@ export default function Page() {
 
       <Homepage />
 
-      <Education />
-
-      <Certifications />
-
-      <Experience />
-
-      <Projects />
-
-      <Contact />
-
       <Footer />
     </>
   );
