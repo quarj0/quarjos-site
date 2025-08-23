@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "my-portfolio",
-=======
   "name": "new-portfolio",
->>>>>>> d7bdd12 (first commit)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,33 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@heroicons/react": "^2.2.0",
-    "framer-motion": "^12.23.12",
     "next": "15.4.6",
-    "prop-types": "^15.8.1",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "react-icons": "^5.5.0"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.4.6",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-=======
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.6"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
->>>>>>> d7bdd12 (first commit)
+    "@tailwindcss/postcss": "^4.1.12",
+    "tailwindcss": "^4.1.12"
   }
 }
