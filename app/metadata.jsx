@@ -1,4 +1,4 @@
 export const metadata = {
   title: 'Owusu Ansah - Portfolio',
-  description: 'Owusu Ansah is a software engineer and cybersecurity professional.',
+  description: 'Owusu Ansah is a software developer and cybersecurity professional.',
 }
