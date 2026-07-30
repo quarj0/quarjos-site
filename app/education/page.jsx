@@ -1,13 +1,5 @@
-import Navbar from "@/app/components/Navbar";
-import Education from "@/app/components/Education";
+import { redirect } from "next/navigation";
 
-const EducationPage = () => {
-  return (
-    <div>
-      <Navbar />
-      <Education />
-    </div>
-  );
-};
-
-export default EducationPage;
+export default function EducationPage() {
+  redirect("/#about");
+}

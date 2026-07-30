@@ -1,13 +1,5 @@
-import Navbar from "@/app/components/Navbar";
-import Projects from "@/app/components/Projects";
+import { redirect } from "next/navigation";
 
-const ProjectsPage = () => {
-  return (
-    <div>
-      <Navbar />
-      <Projects />
-    </div>
-  );
-};
-
-export default ProjectsPage;
+export default function ProjectsPage() {
+  redirect("/#work");
+}
