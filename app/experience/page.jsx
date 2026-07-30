@@ -1,13 +1,5 @@
-import Navbar from "@/app/components/Navbar";
-import Experience from "@/app/components/Experience";
+import { redirect } from "next/navigation";
 
-const ExperiencePage = () => {
-  return (
-    <div>
-      <Navbar />
-      <Experience />
-    </div>
-  );
-};
-
-export default ExperiencePage;
+export default function ExperiencePage() {
+  redirect("/#experience");
+}
