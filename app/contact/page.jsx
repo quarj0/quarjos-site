@@ -1,13 +1,5 @@
-import Navbar from "@/app/components/Navbar";
-import Contact from "@/app/components/Contact";
+import { redirect } from "next/navigation";
 
-const ContactPage = () => {
-  return (
-    <div>
-      <Navbar />
-      <Contact />
-    </div>
-  );
-};
-
-export default ContactPage;
+export default function ContactPage() {
+  redirect("/#contact");
+}

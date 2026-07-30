@@ -23,7 +23,7 @@ const contacts = [
       "owusuansahkwadwo24@gmail.com",
       <Link
         key="portfolio"
-        href="https://quarjos-site.vercel.app"
+        href="https://owusuansah.vercel.app"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-blue-500 text-gray-400"
